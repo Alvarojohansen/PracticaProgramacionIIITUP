@@ -1,6 +1,8 @@
-﻿namespace ConsultaAlum_Alvaro_WebAPI.Services
+﻿using ConsultaAlum_Alvaro_WebAPI.Services.Interfaces;
+
+namespace ConsultaAlum_Alvaro_WebAPI.Services.implementations
 {
-    public class Class
+    public class ProfessorService : IProfessorService
     {
     }
 }
