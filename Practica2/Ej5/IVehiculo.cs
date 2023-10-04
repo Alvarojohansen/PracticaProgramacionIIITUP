@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace Practica2.Ej5
 {
     internal interface IVehiculo
-    {   
-     void Conducir();
-     bool Cargar(int cantidad);
+    {
+            public void Conducir();
+
+            public bool CargarCombustible(int cantCombustible);
     }
 }
 
